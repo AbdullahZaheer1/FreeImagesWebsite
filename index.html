@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Stock Images - Abdullah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">FreeStock</div>
+            <div class="tagline">10 Million+ Free Stock Images - 100% Legal Downloads</div>
+        </header>
+        
+        <section class="search-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for nature, business, technology, people...">
+                <button id="searchBtn">Search Images</button>
+            </div>
+            
+            <div class="source-selector">
+                <div class="source-btn active" data-source="unsplash">Unsplash</div>
+                <div class="source-btn" data-source="pexels">Pexels</div>
+                <div class="source-btn" data-source="pixabay">Pixabay</div>
+            </div>
+        </section>
+        
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <p>Loading beautiful images...</p>
+        </div>
+        
+        <div class="image-grid" id="imageGrid">
+            <!-- Images will appear here -->
+        </div>
+        
+        <footer>
+            <p>© 2024 FreeStock. All images sourced from Unsplash, Pexels, and Pixabay - Free for commercial use.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
